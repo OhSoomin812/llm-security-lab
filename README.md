@@ -21,15 +21,15 @@ RAG(검색 증강 생성) 파이프라인 구축까지 단계별로 담았습니
 
 | 주제 | 노트북 | 내용 |
 | --- | --- | --- |
-| OpenAI 호출 | `src/1_1_openai.ipynb` | OpenAI API 기본 호출 |
-| 샘플링 파라미터 | `src/1_1_2_temperature.ipynb`, `src/1_1_2_temp_maxtoken.ipynb` | temperature · max_token 영향 비교 |
-| Gemini | `src/1_2_gemini.ipynb` | Google Gemini 호출 |
-| 로컬 LLM | `src/1_3_ollama.ipynb`, `src/1_3_2_qwen.ipynb` | Ollama · Qwen 로컬 실행 |
-| 모델 비교 | `src/1_4_llms.ipynb` | 같은 프롬프트에 대한 모델별 응답 비교 |
-| 토크나이저 | `src/1_5_tokenizer.ipynb` | 토큰화 방식과 토큰 수 확인 |
-| 대화 상태 | `src/1_6_stateless.ipynb`, `src/1_6_2_stateful.ipynb` | stateless vs stateful 대화 관리 |
-| 컨텍스트 | `src/1_7_context_openai.ipynb` | 대화 맥락 유지 |
-| 보안 모델 | `src/ann_security_ko.ipynb` | PyTorch ANN 기반 보안 비용 회귀 모델 |
+| OpenAI 호출 | `src/day1/1_1_openai.ipynb` | OpenAI API 기본 호출 |
+| 샘플링 파라미터 | `src/day1/1_1_2_temperature.ipynb`, `src/day1/1_1_2_temp_maxtoken.ipynb` | temperature · max_token 영향 비교 |
+| Gemini | `src/day1/1_2_gemini.ipynb` | Google Gemini 호출 |
+| 로컬 LLM | `src/day1/1_3_ollama.ipynb`, `src/day1/1_3_2_qwen.ipynb` | Ollama · Qwen 로컬 실행 |
+| 모델 비교 | `src/day1/1_4_llms.ipynb` | 같은 프롬프트에 대한 모델별 응답 비교 |
+| 토크나이저 | `src/day1/1_5_tokenizer.ipynb` | 토큰화 방식과 토큰 수 확인 |
+| 대화 상태 | `src/day1/1_6_stateless.ipynb`, `src/day1/1_6_2_stateful.ipynb` | stateless vs stateful 대화 관리 |
+| 컨텍스트 | `src/day1/1_7_context_openai.ipynb` | 대화 맥락 유지 |
+| 보안 모델 | `src/day1/ann_security_ko.ipynb` | PyTorch ANN 기반 보안 비용 회귀 모델 |
 
 ### Day 2 — RAG 파이프라인
 청킹·임베딩·벡터 검색을 거쳐 보안 도메인 RAG까지 구축합니다.
@@ -82,7 +82,7 @@ uv run jupyter lab
 ## 참고 문서
 - [`Ollama Command Reference.md`](./Ollama%20Command%20Reference.md) — Ollama CLI 명령어 정리
 - [`uv_command.md`](./uv_command.md) — uv 자주 쓰는 명령어
-- [`src/comparison.md`](./src/comparison.md) — 모델별 응답 비교 결과
+- [`src/day1/comparison.md`](./src/day1/comparison.md) — 모델별 응답 비교 결과
 
 ---
 
